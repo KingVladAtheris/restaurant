@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgba(255, 60, 0, 0.404);
+    margin: 20px;
+    padding: 20px;
+    width: 350px;
+}
+
+#homeButton, #menuButton, #aboutButton {
+    background-color: rgb(253, 222, 182);
+    border-radius: 5px;
+    border-color: rgb(199, 125, 34);
+}
+
+.story {
+    text-align: justify;
+}
